@@ -15,5 +15,7 @@ mobileApp.tables.add('V_Categories_Display');
 mobileApp.tables.add('TBL_Feedback');
 mobileApp.tables.add('TBL_SystemUsers');
 mobileApp.tables.add('TBL_Addresses');
+mobileApp.tables.add('TBL_Riders');
+mobileApp.tables.add('TBL_Delivery');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
