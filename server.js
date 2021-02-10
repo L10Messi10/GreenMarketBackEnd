@@ -18,5 +18,6 @@ mobileApp.tables.add('TBL_Addresses');
 mobileApp.tables.add('TBL_Riders');
 mobileApp.tables.add('TBL_Delivery');
 mobileApp.tables.add('V_Delivery');
+mobileApp.tables.add('TBL_OrderTracking');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
