@@ -22,5 +22,6 @@ mobileApp.tables.add('TBL_OrderTracking');
 mobileApp.tables.add('V_OrderTracking');
 mobileApp.tables.add('V_Orders_Report');
 mobileApp.tables.add('TBL_MarketLocation');
+mobileApp.tables.add('TBL_DeliveryFee');
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
