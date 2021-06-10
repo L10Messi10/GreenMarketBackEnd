@@ -26,6 +26,7 @@ mobileApp.tables.add('TBL_DeliveryFee');
 mobileApp.tables.add('TBL_OrderHistory');
 mobileApp.tables.add('V_CategoriesForWPF');
 mobileApp.tables.add('V_CategoriesForWPF_Display');
+mobileApp.tables.add('TBL_Token');
 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
